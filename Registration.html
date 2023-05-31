@@ -1,0 +1,415 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="form.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+    <title>Registration</title>
+<script>
+  $(document).ready(function(){
+  $("#firstform").hide();
+  $("#button").click(function() {
+  $("#display, #firstform").toggle();
+
+  });
+
+});
+
+$(document).ready(function(){
+$("#skindform").hide();
+$("#buttonn").click(function(){
+$("#display, #skindform").toggle();
+});
+
+});
+
+
+$(document).ready(function(){
+$("#thirdform").hide();
+$("#button1").click(function(){
+$("#display, #thirdform").toggle();
+});
+
+});
+
+</script>
+
+
+
+
+  </head>
+  <body>
+    
+
+ <!-- logo -->
+<div class="container-fluid pt-4"  id="logo1">
+  <div class="conatiner">
+    <img id="img" src="img/1.png">
+  </div>
+</div>
+
+ <!-- end-->
+
+
+ <!-- box1-->
+<div class="container-fluid mt-5" id="display">
+    <div class="container">
+      <p class="text"> <mark id="mark"> Dovelp </mark>is committed to developing high-quality reliable solutions for all your digital needs, our team of experts are always available to answer any questions, ensuring your project is delivered to the highest standard. We bring together our teams industry expertise, and paramount development technologies to deliver perfectly tailored solutions 
+        for all your technological needs.</p>
+        <h1 class="form">  Registration Form</h1>
+    <div class="row">
+        <div class="col-md-4">
+    <div class="card mb-3" id="animation">
+        <div id="card" class="card-header bg-transparent ">  Personal Details</div>
+        <div class="card-body ">
+
+        <p class="card-text ">Enter Your Personal Details</p>
+        </div>
+      <button id="button">NEXT </button>
+      </div>
+</div>
+
+
+<div class="col-md-4">
+  <div class="card mb-3" id="animation">
+      <div id="card" class="card-header bg-transparent ">  Educational Details</div>
+      <div class="card-body ">
+       
+        <p class="card-text">Enter Your Educational Details  </p>
+      </div>
+    <button id="buttonn">NEXT</button>
+    </div>
+</div>
+
+<div class="col-md-4">
+  <div class="card mb-3" id="animation">
+      <div id="card" class="card-header bg-transparent ">  Attachments</div>
+      <div class="card-body ">
+      
+        <p class="card-text">Attach Your Documents</p>
+      </div>
+    <button id="button1">NEXT </button>
+    </div>
+</div>
+
+
+</div>
+</div>
+</div>
+
+
+ <!-- end -->
+
+
+
+  <!--first form -->
+<div class="container-fluid   animate__animated animate__slideInLeft animate__delay-0s	0s pt-5 pb-5" id="firstform" style="display: none; background-color: #85bad7; height: 100%; padding-top: 50px;">
+  <div class="container" id="top" >
+      <form>
+          <div class="form-row ">
+            <div class="form-group col-md-6">
+              <label for="inputname">First Name </label>
+              <input type="text" class="form-control" id="inputname">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputlastname">Last Name</label>
+              <input type="text" class="form-control" id="inputlastname">
+            </div>
+
+            <div class="form-group col-md-6">
+              <label for="inputno">Mobile Number </label>
+              <input type="int" class="form-control" id="inputno">
+            </div>
+
+            <div class="form-group col-md-6">
+              <label for="inputemail">Email Id </label>
+              <input type="text" class="form-control" id="inputemail">
+            </div>
+
+          </div>
+          <div class="form-group">
+            <label for="inputAddress">Address</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="">
+          </div>
+         
+          <div class="form-row">
+            <div class="form-group col-md-4">
+              <label for="inputCity">City</label>
+              <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="form-group col-md-4">
+              <label for="inputState">State</label>
+              <select id="inputState" class="form-control">
+                <option selected>Choose...</option>
+                <option> </option>
+              </select>
+            </div>
+            <div class="form-group col-md-4">
+              <label for="inputState">WhatsApp Consent </label>
+              <select id="inputState" class="form-control">
+                <option selected>Choose...</option>
+                <option>yes, i consent</option>
+                <option>No, i not consent</option>
+                <option>If you consent, Accenture may use WhatsApp as an additional means of 
+                  communication with you. The communication could include recruitment/onboarding 
+                  related alerts and notifications, for example - video interview guides,
+                   recruitment process flow, FAQs, screening questions, important contact details,
+                    survey links. For the limited purposes of sharing important information with you 
+                    via WhatsApp messages, Accenture will share your name and registered mobile number 
+                  with third-party vendor authorized by Accenture.
+                  In case you do not give Consent, you will not receive any WhatsApp Notification from Accenture.</option>
+              </select>
+            </div>
+
+          </div>
+
+<div class="form-row">
+  
+    <div class="form-group col-md-6">
+      <label for="birthday">Birthday:</label>
+      <input type="date" id="birthday" name="birthday">
+     
+    </div>
+  <div class="form-group col-md-3">
+    
+
+  </div>
+
+  <div class="form-group col-md-3">
+   
+
+  </div>
+</div>
+          <button type="button" class="btn btn-outline-info" id="btnn">Submit</button>
+        </form>
+  </div>
+</div>
+ <!-- end -->
+
+
+
+<div class="container-fluid pt-5 pb-5 animate__animated animate__slideInLeft animate__delay-0s	0s pt-5 pb-5" id="skindform" style="display: none; background-color: #85bad7; height: 100%; padding-top: 50px;">
+  <div class="container" id="top1" >
+
+
+ <form>
+  <div class="form-row">
+    <div class="form-group col-md-4">
+      <label for="inputtext">Post Graduate</label>
+     
+      <select id="inputtext" class="form-control">
+        <option selected>Choose...</option>
+        <option>MCA</option>
+        <option>MBA</option>
+        <option>Mtech</option>
+      </select>
+    </div>
+
+    <div class="form-group col-md-4">
+      <label for="inputmarks">  Year Of Passing </label>
+      <select id="inputtext" class="form-control">
+        <option selected>Choose...</option>
+        <option>2012</option>
+        <option>2013</option>
+        <option>2014</option>
+        <option>2015</option>
+        <option>2016</option>
+        <option>2017</option>
+        <option>2018</option>
+        <option>2019</option>
+        <option>2020</option>
+        <option>2021</option>
+      </select>
+    </div>
+
+    <div class="form-group col-md-4">
+      <label for="inputmarks">Obtained percentage</label>
+      <input type="number" class="form-control" id="inputmarks">
+    </div>
+
+  </div>
+
+  <div class="form-row">
+    <div class="form-group col-md-4">
+      <label for="inputGraduation">Graduation</label>
+ 
+      <select id="inputtext" class="form-control">
+        <option selected>Choose...</option>
+        <option>BCA</option>
+        <option>Btech</option>
+        <option>BSC</option>
+        <option>DIPLOMA</option>
+      </select>
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputnumber">Year of Passing</label>
+      <select id="inputnumber" class="form-control">
+        <option selected>Choose...</option>
+        <option>2012</option>
+        <option>2013</option>
+        <option>2014</option>
+        <option>2015</option>
+        <option>2016</option>
+        <option>2017</option>
+        <option>2018</option>
+        <option>2019</option>
+        <option>2020</option>
+        <option>2021</option>
+      </select>
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputmarks">Obtained percentage</label>
+      <input type="number" class="form-control" id="inputmarks">
+    </div>
+  </div>
+
+  <div class="form-row">
+    <div class="form-group col-md-4">
+      <label for="inputschool">High School</label>
+      <input type="text" class="form-control" id="inputschool">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputnumber">Year of Passing</label>
+      <select id="inputnumber" class="form-control">
+        <option selected>Choose...</option>
+        <option>2012</option>
+        <option>2013</option>
+        <option>2014</option>
+        <option>2015</option>
+        <option>2016</option>
+        <option>2017</option>
+        <option>2018</option>
+        <option>2019</option>
+        <option>2020</option>
+        <option>2021</option>
+      </select>
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputmarks">Obtained percentage</label>
+      <input type="number" class="form-control" id="inputmarks">
+    </div>
+  </div>
+
+  <div class="form-row">
+    <div class="form-group col-md-4">
+      <label for="inputmatric">Matric</label>
+      <input type="text" class="form-control" id="inputmatric">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputyear">Year of Passing</label>
+      <select id="inputyear" class="form-control">
+        <option selected>Choose...</option>
+        <option>2012</option>
+        <option>2013</option>
+        <option>2014</option>
+        <option>2015</option>
+        <option>2016</option>
+        <option>2017</option>
+        <option>2018</option>
+        <option>2019</option>
+        <option>2020</option>
+        <option>2021</option>
+      </select>
+    </div>
+    
+  <div class="form-group col-md-4">
+    <label for="inputmarks">Obtained percentage</label>
+    <input type="number" class="form-control" id="inputmarks">
+  </div>
+</div>
+
+
+  <div class="form-row">
+    <div class="form-group col-md-4">
+      <label for="inputgap">Gap in Education </label>
+      <input type="text" class="form-control" id="inputgap">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputnumber">Are you working currently?</label>
+      <select id="inputnumber" class="form-control">
+        <option selected>Choose...</option>
+        <option>Yes</option>
+        <option>No</option>
+      </select>
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputnumber">Total Professional Experience  </label>
+      <input type="text" class="form-control" id="inputnumber">
+    </div>
+  </div>
+  <button type="button" class="btn btn-outline-info" id="btnn">Submit</button>
+</form>
+</div>
+</div>
+ <!-- end -->
+
+
+
+
+ <div class="container-fluid  pt-5 pb-5  animate__animated animate__slideInLeft animate__delay-0s	0s pt-5 pb-5" id="thirdform" style="display: none; background-color: #85bad7; height: 100%; padding-bottom: 200px;">
+   <div class="container" id="topp">
+<div class="row">
+
+    <form style="padding-left: 31px;">
+      <div class="form-group">
+        <label for="myfile">Resume/CV </label>
+  <input type="file" id="myfile" name="myfile"><br><br>
+      </div>
+
+
+
+      <div class="form-group">
+        <label for="myfile"> Portfolio</label>
+        <input type="file" id="myfile" name="myfile"><br><br>
+      </div>
+
+
+
+      <div class="form-group">
+        <label for="myfile">Passport size photograph</label>
+        <input type="file" id="myfile" name="myfile"><br><br>
+      </div>
+
+      
+    </form>
+</div>
+   </div>
+ </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

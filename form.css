@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    .form{
+        text-align: center;
+        margin-bottom: 70px;
+        font-family: serif;
+        font-weight: 600;
+        color: #0d4881;
+        margin-top: 40px;
+
+    }
+    #button{
+    width: 96px;
+    text-align: center;
+    margin-left: 81px;
+    margin-bottom: 23px;
+    box-shadow: 0px 1px 10px 4px #0d4881;
+    border: none;
+    margin-bottom: 29px;
+    font-family: serif;
+    }
+    #card {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+    font-family: serif;
+    }
+#top{
+    background-color: #0d4881;
+    color: rgb(255, 255, 255);
+    padding-top: 79px;
+    font-size: 22px;
+    font-family: serif;
+    border-radius: 43px;
+    margin-top: 0px;
+    margin-bottom: 100px;
+    box-shadow: 0px 3px 10px 7px #0d4881;
+
+}
+
+#btnn{
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+    margin-bottom: 46px;
+    border-block-color: rgb(253, 251, 251);
+}
+#btnn:hover{
+    background-color:#85bad7 ;
+    color: rgb(252, 245, 245);
+}
+
+.btn-outline-info {
+
+    border-color: #85bad7;
+}
+#img{
+  
+    padding: 20px;
+}
+
+
+
+ /* end*/
+
+
+ #buttonn{
+    width: 96px;
+text-align: center;
+
+margin-left: 81px;
+margin-bottom: 23px;
+box-shadow: 0px 1px 10px 4px #0d4881;
+border: none;
+margin-bottom: 29px;
+font-family: serif;
+}
+
+#button1{
+    width: 96px;
+text-align: center;
+
+margin-left: 81px;
+margin-bottom: 23px;
+
+    box-shadow: 0px 1px 10px 4px #0d4881;
+    border: none;
+    margin-bottom: 29px;
+    font-family: serif;
+
+}
+
+
+#topp{
+    background-color: #0d4881;
+    color: rgb(250, 245, 245);
+    padding-top: 79px;
+    font-size: 22px;
+    font-family: serif;
+    border-radius: 43px;
+    margin-bottom: 250px;
+    margin-top: 40px;
+    box-shadow: 0px 3px 10px 7px #0d4881;
+
+}
+#animation{
+    max-width: 18rem;
+    box-shadow: 0px 3px 10px 7px #85bad7 ;
+    max-width: 18rem;
+}
+
+#img {
+    display: block;
+    margin: auto;
+   
+    
+}
+#top1{
+    background-color: #0d4881;
+    color: rgb(252, 249, 249);
+    padding-top: 79px;
+    font-size: 22px;
+    font-family: serif;
+    border-radius: 43px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+  
+    box-shadow: 0px 3px 10px 7px #0d4881;
+
+}
+#logo1{
+    box-shadow: 4px 2px 10px 0px #0d4881;
+    background-color:#85bad7 ;
+}
+.text{
+  
+        line-height: 31px;
+        text-align: center;
+        font-size: 20px;
+        font-style: serif;
+        font-family: serif;
+        color: #0d4881;
+    
+}
+#mark:hover{
+    background-color:#85bad7 ;
+}
+#mark{
+    background-color: rgb(255, 251, 251);
+}
+
+.card-text{
+    text-align: center;
+    font-size: 17px;
+}
+/* .button, input { */
+    /* overflow: visible; */
+    /* max-width: 49%; */
+/* } */
